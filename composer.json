@@ -20,7 +20,7 @@
         "illuminate/contracts": "^9.30|^10.0|^11.0",
         "phpdocumentor/type-resolver": "^1.5",
         "spatie/laravel-package-tools": "^1.9.0",
-        "spatie/php-structure-discoverer": "^2.0"
+        "spatie/php-structure-discoverer": "*"
     },
     "require-dev" : {
         "fakerphp/faker": "^1.14",
@@ -75,6 +75,13 @@
             ]
         }
     },
+
+     "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/inmanturbo/php-structure-discoverer"
+    }
+    ],
     "minimum-stability" : "dev",
     "prefer-stable" : true
 }
